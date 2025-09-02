@@ -1,20 +1,20 @@
 class Greet < Formula
   desc "Greet CLI application"
   homepage "https://github.com/topheman/update-homebrew-tap-playground"
-  version "0.1.19"
+  version "0.1.20"
   license "MIT"
 
   if OS.linux? && Hardware::CPU.intel?
-    url "https://github.com/topheman/update-homebrew-tap-playground/releases/download/0.1.19/greet-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "bc8bd014531f627a0c7c2ebfe216506c2189809cb32d249701ba2ecd2c09d779"
+    url "https://github.com/topheman/update-homebrew-tap-playground/releases/download/0.1.20/greet-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "f619d3f15d65175cd032035849ebae28dcd008f0a41b8db9baa232863982590a"
   end
   if OS.mac? && Hardware::CPU.arm?
-    url "https://github.com/topheman/update-homebrew-tap-playground/releases/download/0.1.19/greet-aarch64-apple-darwin.tar.gz"
-    sha256 "7dbcde5d13017f3e26a333afef8c64058e8952047514696c53adc3dbece163b3"
+    url "https://github.com/topheman/update-homebrew-tap-playground/releases/download/0.1.20/greet-aarch64-apple-darwin.tar.gz"
+    sha256 "1551f7dceed0b99d88e0f0b1d01b3cd180a14ef97731f63e8cdffd1c57a3593a"
   end
   if OS.mac? && Hardware::CPU.intel?
-    url "https://github.com/topheman/update-homebrew-tap-playground/releases/download/0.1.19/greet-x86_64-apple-darwin.tar.gz"
-    sha256 "44c40de6c73e69c340a85493b8992ea2638d2974284925dc63d867719929a4e6"
+    url "https://github.com/topheman/update-homebrew-tap-playground/releases/download/0.1.20/greet-x86_64-apple-darwin.tar.gz"
+    sha256 "7a217713355a53c964215d9da39836ac84190ee1350e4f64577549baa783ffcb"
   end
 
   def install
